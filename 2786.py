@@ -1,0 +1,8 @@
+l = int(input())
+c = int(input())
+## jota inteiras : ( l * c) + (c - 1)*(l - 1)
+## jota parciais : ((c - 1) * 2) + (( l -1) * 2)
+li = (l * c) + (c - 1) * (l - 1)
+lp = ((c - 1) * 2) + ((l - 1) * 2)
+print(li)
+print(lp)
